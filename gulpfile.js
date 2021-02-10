@@ -9,7 +9,6 @@ const gulp = require('gulp'),
     // htmlmin = require('gulp-htmlmin'),
     // rimraf = require('rimraf'),
     browserSync = require('browser-sync');
-    // reload = browserSync.reload(); // todo check it
 
 const path = {
     node_modules: {
@@ -35,7 +34,7 @@ const path = {
         html:  'src/**/*.html',
         css:   'src/css/**/*.css',
         fonts: 'src/fonts/**/*.*',
-        img:   'src/img/**/*.{jpg,svg}',
+        img:   'src/img/**/*.{jpg,svg,png}',
         js:    'src/js/*.js',
         scss:  'src/scss/*.scss',
         scss_to: 'src/css/',
