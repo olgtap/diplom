@@ -1,0 +1,198 @@
+@import url(bootstrap.css);
+@import url(all.css);
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@media (min-width: 768px) {
+  .navbar-main {
+    font-size: 2rem; }
+  body {
+    font-size: 2.1rem; }
+  h2 {
+    font-size: 2rem !important; }
+  .btn-lg {
+    font-size: 1.5rem; } }
+
+@media (min-width: 992px) {
+  .navbar-top {
+    height: 2.25rem; }
+  .navbar-main {
+    top: 2.25rem;
+    height: 4.5rem;
+    font-size: 1.1rem;
+    opacity: 0.95; }
+  body {
+    font-size: 1.1rem;
+    padding-top: 6.75rem; }
+  h2 {
+    font-size: 1.5rem !important; }
+  .btn-lg {
+    font-size: 1.1rem; } }
+
+body {
+  font-family: 'Lora', serif !important; }
+
+.main {
+  text-align: center;
+  height: auto; }
+
+.img-logo-header {
+  width: 100px;
+  height: 100px; }
+
+.img-logo-footer {
+  width: 150px;
+  height: 150px; }
+
+.bg-base-color {
+  background: #6DAE81; }
+
+.footer {
+  padding: 2rem 0; }
+
+.footer-nav {
+  flex-direction: row;
+  justify-content: space-around; }
+
+.footer-contacts {
+  padding-top: 1rem; }
+
+.contact-item {
+  padding: 0.5em;
+  list-style-type: none; }
+
+.footer-contacts__item {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.footer-contacts__item:hover {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.footer-contacts__icon {
+  margin-right: 0.5rem;
+  text-align: center; }
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  color: white; }
+
+.contact-item-social {
+  margin-right: 5rem;
+  list-style-type: none; }
+
+.footer .navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF; }
+
+.navbar-top-link {
+  color: #FFFFFF; }
+
+.navbar-top-link:hover {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.section-1 {
+  background-image: url(/img/main-1.jpg);
+  position: relative;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section-1-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.5rem;
+  margin-top: 10rem; }
+
+.section-1-center__title {
+  font-size: 1.5rem; }
+
+.section-1-center__list {
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 1.25rem;
+  list-style: none;
+  padding: 0; }
+
+.section-1-center__list_item {
+  color: #6DAE81; }
+
+.section-1-center__buttons {
+  font-weight: bold; }
+
+.btn-green {
+  color: #fff;
+  background-color: #6DAE81;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn-green:hover {
+  color: #6DAE81;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn-green:focus, .btn-green.focus {
+  color: #fff;
+  background-color: #6DAE81;
+  box-shadow: 0 0 0 0.2rem rgba(119, 177, 133, 0.5); }
+
+.btn-green.disabled, .btn-green:disabled {
+  color: #fff;
+  background-color: #6DAE81; }
+
+.btn-green:not(:disabled):not(.disabled):active, .btn-green:not(:disabled):not(.disabled).active,
+.show > .btn-green.dropdown-toggle {
+  color: #fff;
+  background-color: #6DAE81; }
+
+.btn-green:not(:disabled):not(.disabled):active:focus, .btn-green:not(:disabled):not(.disabled).active:focus,
+.show > .btn-green.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(119, 177, 133, 0.5); }
+
+.section-head {
+  padding: 1em 0;
+  margin: 1em;
+  background-color: #6DAE81;
+  border-radius: 0.5rem;
+  color: #FFFFFF; }
+
+.section-bottom {
+  padding: 1em 0; }
+
+.section-2 {
+  padding: 0rem 4rem; }
+
+.section-2 .section-bottom {
+  padding: 0 0;
+  margin: 2rem 0 3rem 0; }
+
+.section-3 {
+  background-color: #EFF8FF;
+  padding: 4rem 4rem; }
+
+.section-3 .section-head {
+  padding: 0 0;
+  margin: 2rem 0 5rem 0;
+  background-color: #EFF8FF;
+  color: #5B6065; }
+
+.space {
+  margin-right: 1rem; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.card__image {
+  width: 560px;
+  height: 560px; }

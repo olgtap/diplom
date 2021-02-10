@@ -1,0 +1,355 @@
+@import "bootstrap.css";
+@import "all.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+//font-family: 'Lora', serif;
+
+$base-color-old: #77B185;
+$base-color: #6DAE81;
+$base-color-dark: #659871;
+//$base-color2: #E4D6CF;
+$base-color2: #EFF8FF ;
+$font-color-title: #5B6065;
+$font-color-text:  #959595;
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+@media (min-width: 768px) {
+  .navbar-main {
+    font-size: 2rem;
+  }
+
+  body {
+    font-size: 2.1rem;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  .btn-lg {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-top {
+    height: 2.25rem;
+  }
+
+  .navbar-main {
+    top: 2.25rem;
+    height: 4.5rem;
+    font-size: 1.1rem;
+    opacity: 0.95;
+  }
+
+  // ---
+
+  body {
+    font-size: 1.1rem;
+    padding-top: 6.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .btn-lg {
+    font-size: 1.1rem;
+  }
+}
+
+//@media (min-width: 1200px) {
+//  h2 {
+//    font-size: 1.5rem !important;
+//  }
+//}
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+body {
+  font-family: 'Lora', serif !important;
+}
+
+.main {
+  text-align: center;
+  height: auto;
+}
+
+.img-logo-header {
+  width: 100px;
+  height: 100px;
+}
+
+.img-logo-footer{
+  width: 150px;
+  height: 150px;
+}
+
+.bg-base-color{
+  background: $base-color;
+}
+
+.footer {
+  padding: 2rem 0;
+}
+
+.footer-nav{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+//
+//
+//// footer
+//.footer-wrapper{
+//  display: table-row;
+//}
+//
+//.footer-wrapper{
+//  height: 1px;
+//}
+//
+//.footer__top{
+//  background: #e3e3e3 url('../img/wave_bg.png') repeat-x;
+//  height: 20px;
+//  width: 100%;
+//}
+//.footer__inner{
+//  background:#252525;
+//  padding: 3rem 0;
+//}
+//
+//.footer-logo__svg{
+//  fill: #707070;
+//
+//}
+//.footer-logo__svg:hover{
+//  fill: #fff;
+//
+//}
+//
+//.footer__heading{
+//  color: #707070;
+//  text-transform: uppercase;
+//  letter-spacing: 0.025em;
+//  margin-bottom: 1rem;
+//  font-weight: 600;
+//}
+//
+//.footer__block{
+//  margin-bottom: 3rem;
+//}
+//.footer__copyright{
+//  margin: 2rem 0;
+//  color: rgba(255,255,255,.6);
+//}
+.footer-contacts{
+  padding-top: 1rem;
+}
+//
+//.footer-contacts__item{
+//  display: block;
+//  text-decoration: none;
+//  color: rgba(255,255,255,.6);
+//}
+//.footer-contacts__item:hover{
+//  text-decoration: none;
+//  color: rgba(255,255,255,1);
+//}
+
+.contact-item{
+  padding: 0.5em;
+  list-style-type: none;
+}
+
+.footer-contacts__item{
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer-contacts__item:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-contacts__icon{
+  margin-right: 0.5rem;
+  text-align: center;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  color: white;
+}
+
+.contact-item-social {
+  margin-right: 5rem;
+  list-style-type: none;
+}
+
+
+.footer .navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar-top-link {
+  //z-index: 2000;
+  color: #FFFFFF;
+}
+
+.navbar-top-link:hover {
+  //z-index: 2000;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.section-1 {
+  background-image: url(/img/main-1.jpg);
+  position: relative;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 600px;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 0.5rem;
+  margin-top: 10rem;
+}
+
+.section-1-center__title {
+  font-size: 1.5rem;
+}
+
+.section-1-center__list {
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 1.25rem;
+  list-style: none;
+  padding: 0;
+}
+.section-1-center__list_item {
+  //padding-right: 1.3em;
+  color: $base-color;
+}
+
+.section-1-center__buttons {
+  font-weight: bold;
+}
+
+// ---------------------------------
+
+.btn-green {
+  //font-size: 1.1rem;
+  color: #fff;
+  background-color: $base-color;
+  //border-color: $base-color;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.20);
+}
+
+.btn-green:hover {
+  color: $base-color;
+  background-color: #fff;
+  //border-color: $base-color-dark;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.20);
+}
+
+.btn-green:focus, .btn-green.focus {
+  color: #fff;
+  background-color: $base-color;
+  //border-color: $base-color-dark;
+  box-shadow: 0 0 0 0.2rem rgba(119, 177, 133, 0.5);
+}
+
+.btn-green.disabled, .btn-green:disabled {
+  color: #fff;
+  background-color: $base-color;
+  //border-color: $base-color-dark;
+}
+
+.btn-green:not(:disabled):not(.disabled):active, .btn-green:not(:disabled):not(.disabled).active,
+.show > .btn-green.dropdown-toggle {
+  color: #fff;
+  background-color: $base-color;
+  //border-color: $base-color-dark;
+}
+
+.btn-green:not(:disabled):not(.disabled):active:focus, .btn-green:not(:disabled):not(.disabled).active:focus,
+.show > .btn-green.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(119, 177, 133, 0.5);
+}
+
+// ---------------------------------
+
+.section-head {
+  padding: 1em 0;
+  margin: 1em;
+  background-color: $base-color;
+  border-radius: 0.5rem;
+  color: #FFFFFF;
+}
+
+.section-bottom {
+  padding: 1em 0;
+
+}
+
+.section-2 {
+  padding: 0rem 4rem;
+}
+
+.section-2 .section-bottom {
+  padding: 0 0;
+  //margin: 1rem 0;
+  margin: 2rem 0 3rem 0;
+  //background-color: $base-color2;
+  //color: $font-color-title;
+}
+.section-3 {
+  background-color: $base-color2;
+  padding: 4rem 4rem;
+}
+
+.section-3 .section-head {
+  padding: 0 0;
+  //margin: 1rem 0;
+  margin: 2rem 0 5rem 0;
+  background-color: $base-color2;
+  color: $font-color-title;
+}
+
+.space {
+  margin-right: 1rem;
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card__image {
+  width: 560px;
+  height: 560px;
+}
