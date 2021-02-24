@@ -9,6 +9,7 @@ const gulp = require('gulp'),
     // htmlmin = require('gulp-htmlmin'),
     // rimraf = require('rimraf'),
     browserSync = require('browser-sync');
+    // reload = browserSync.reload(); // todo check it
 
 const path = {
     node_modules: {
@@ -16,8 +17,11 @@ const path = {
             css: [
                 'node_modules/bootstrap/dist/css/bootstrap.css',
                 'node_modules/@fortawesome/fontawesome-free/css/all.css',
+                // 'node_modules/bootstrap/dist/css/bootstrap-grid.css',
+                // 'node_modules/bootstrap/dist/css/bootstrap-reboot.css',
             ],
             js:  [
+                // 'node_modules/bootstrap/dist/js/bootstrap.js',
                 'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
                 'node_modules/jquery/dist/jquery.js',
                 'node_modules/@fortawesome/fontawesome-free/js/all.js',
@@ -34,7 +38,7 @@ const path = {
         html:  'src/**/*.html',
         css:   'src/css/**/*.css',
         fonts: 'src/fonts/**/*.*',
-        img:   'src/img/**/*.{jpg,svg,png}',
+        img:   'src/img/**/*.{jpg,svg}',
         js:    'src/js/*.js',
         scss:  'src/scss/*.scss',
         scss_to: 'src/css/',
